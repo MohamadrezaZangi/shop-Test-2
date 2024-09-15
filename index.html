@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> بقالی </title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <img id="zanbil" src="./Image/zanbil.jpg" />
+      <p> بقالی </p>
+    </header>
+    <main>
+      <div id="cart" class="carthiiden">
+        <div>
+          <h2> چوخ </h2>
+          <p>زنبیل خالی</p>
+          <h2>جمع کل زنبیل</h2>
+        </div>
+      </div>
+
+      <div class="underHeader"></div>
+
+      <div id="cartMessageBoxborde" class="carthiiden"></div>
+      <div id="cartMessageBox" class="carthiiden">
+        <p class="messageBoxItemName" id="messageBoxItemName"></p>
+        <h3> به زنبیل اضافه شد</h3>
+      </div>
+
+      <div class="search">
+        <input id="search-word" type="text" class="text-input" placeholder="گشتن به دنبال جنس" />
+        <div class="price-search-area">
+          <input id="search-price" class="text-input" type="number" placeholder="گشتن به دنبال قیمت" />
+          <button id="search-btn">بگرد</button>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="CategoryBar">
+          <h5> دسته بندی </h5>
+          <button id="BtnAll" class="filters active">همشون</button>
+          <button id="BtnTech" class="filters">برقیا</button>
+          <button id="BtnHealth" class="filters">دوایا</button>
+          <button id="BtnCloth" class="filters">پوشیدنیا</button>
+        </div>
+
+        <div class="products">
+          <div class="product-items" data-category="tech">
+            <img src="./Image/iphone.png" alt="Iphone" />
+            <h3 class="caption">Iphone 14 Pro Max</h3>
+            <div class="cuntBTN">
+              <span class="product-price">130</span>
+              <button id="addToCardBTN" class="addToCard">اضافه به زنبیل</button>
+            </div>
+          </div>
+
+          <div class="product-items" data-category="tech">
+            <img src="./Image/airpods.png" alt="airpods" />
+            <h3 class="caption">Airpods</h3>
+            <div class="cuntBTN">
+              <span class="product-price">80</span>
+              <button id="addToCardBTN" class="addToCard">اضافه به زنبیل</button>
+            </div>
+          </div>
+
+          <div class="product-items" data-category="cloth">
+            <img src="./Image/bag.png" alt="bag" />
+            <h3 class="caption">Cool Bag</h3>
+            <div class="cuntBTN">
+              <span class="product-price">65</span>
+              <button id="addToCardBTN" class="addToCard">اضافه به زنبیل</button>
+            </div>
+          </div>
+
+          <div class="product-items" data-category="health">
+            <img src="./Image/cream.png" alt="cream" />
+            <h3 class="caption">Sunshine Cream</h3>
+            <div class="cuntBTN">
+              <span class="product-price">21</span>
+              <button id="addToCardBTN" class="addToCard">اضافه به زنبیل</button>
+            </div>
+          </div>
+
+          <div class="product-items" data-category="cloth">
+            <img src="./Image/jacket.png" alt="jacket" />
+            <h3 class="caption">Leather Jacket</h3>
+            <div class="cuntBTN">
+              <span class="product-price">700</span>
+              <button id="addToCardBTN" class="addToCard">اضافه به زنبیل</button>
+            </div>
+          </div>
+
+          <div class="product-items" data-category="health">
+            <img src="./Image/shampoo.png" alt="shampoo" />
+            <h3 class="caption">Sehat Shampoo</h3>
+            <div class="cuntBTN">
+              <span class="product-price">21</span>
+              <button id="addToCardBTN" class="addToCard">اضافه به زنبیل</button>
+            </div>
+          </div>
+
+          <div class="product-items" data-category="cloth">
+            <img src="./Image/shoes.png" alt="shoes" />
+            <h3 class="caption">Running Shoes</h3>
+            <div class="cuntBTN">
+              <span class="product-price">90</span>
+              <button id="addToCardBTN" class="addToCard">اضافه به زنبیل</button>
+            </div>
+          </div>
+
+          <div class="product-items" data-category="">
+            <img src="./Image/vitamin.png" alt="vitamin" />
+            <h3 class="caption">Vitamin pils</h3>
+            <div class="cuntBTN">
+              <span class="product-price">12</span>
+              <button id="addToCardBTN" class="addToCard">اضافه به زنبیل</button>
+            </div>
+          </div>
+
+          <div class="product-items" data-category="">
+            <img src="./Image/watch.png" alt="watch" />
+            <h3 class="caption">Swiss Watch</h3>
+            <div class="cuntBTN">
+              <span class="product-price">600</span>
+              <button id="addToCardBTN" class="addToCard">اضافه به زنبیل</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./script/script.js"></script>
+  </body>
+</html>
